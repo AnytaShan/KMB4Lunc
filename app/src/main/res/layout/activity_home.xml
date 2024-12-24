@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    android:backgroundTint="@color/grey"
+    tools:context=".HomeActivity">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/centurygothic_bold"
+            android:text="Главное"
+            android:textSize="30dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="35dp"
+            android:clickable="true"
+            android:fontFamily="@font/centurygothic_bold"
+            android:text="подробно"
+            android:textSize="16dp"
+            app:layout_constraintStart_toEndOf="@+id/textView7"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:id="@+id/imageFilterView4"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView7"
+            app:srcCompat="@drawable/shapebutton" />
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:id="@+id/imageFilterView5"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageFilterView6"
+            app:srcCompat="@drawable/shapebutton" />
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:id="@+id/imageFilterView7"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageFilterView5"
+            app:srcCompat="@drawable/shapebutton" />
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:id="@+id/imageFilterView6"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageFilterView4"
+            app:srcCompat="@drawable/shapebutton" />
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:id="@+id/imageFilterView9"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="15dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageFilterView6"
+            app:layout_constraintStart_toStartOf="@+id/imageFilterView6"
+            app:layout_constraintTop_toTopOf="@+id/imageFilterView6"
+            app:srcCompat="@drawable/ovaltwo" />
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:id="@+id/imageFilterView10"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="15dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageFilterView5"
+            app:layout_constraintStart_toStartOf="@+id/imageFilterView5"
+            app:layout_constraintTop_toTopOf="@+id/imageFilterView5"
+            app:srcCompat="@drawable/ovalthree" />
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:id="@+id/imageFilterView11"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="15dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageFilterView7"
+            app:layout_constraintStart_toStartOf="@+id/imageFilterView7"
+            app:layout_constraintTop_toTopOf="@+id/imageFilterView7"
+            app:srcCompat="@drawable/ovalfour" />
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:id="@+id/imageFilterView12"
+            android:layout_width="69dp"
+            android:layout_height="67dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="21dp"
+            app:layout_constraintStart_toEndOf="@+id/imageFilterView4"
+            app:layout_constraintTop_toBottomOf="@+id/textView7"
+            app:srcCompat="@drawable/shepnamba" />
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:id="@+id/imageFilterView13"
+            android:layout_width="69dp"
+            android:layout_height="67dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintStart_toEndOf="@+id/imageFilterView6"
+            app:layout_constraintTop_toBottomOf="@+id/imageFilterView12"
+            app:srcCompat="@drawable/shepnamba" />
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:id="@+id/imageFilterView14"
+            android:layout_width="69dp"
+            android:layout_height="67dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintStart_toEndOf="@+id/imageFilterView5"
+            app:layout_constraintTop_toBottomOf="@+id/imageFilterView13"
+            app:srcCompat="@drawable/shepnamba" />
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:id="@+id/imageFilterView19"
+            android:layout_width="69dp"
+            android:layout_height="67dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintStart_toEndOf="@+id/imageFilterView7"
+            app:layout_constraintTop_toBottomOf="@+id/imageFilterView14"
+            app:srcCompat="@drawable/shepnamba" />
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:id="@+id/imageFilterView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="15dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageFilterView4"
+            app:layout_constraintStart_toStartOf="@+id/imageFilterView4"
+            app:layout_constraintTop_toTopOf="@+id/imageFilterView4"
+            app:srcCompat="@drawable/ovalone" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="290dp"
+            android:background="@drawable/styleshape"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="35dp"
+                    android:fontFamily="@font/centurygothic_bold"
+                    android:text="@string/text_hello"
+                    android:textSize="25dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.496"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+

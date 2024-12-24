@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">KMB4Lunc</string>
+    <string name="text_Authorization">АВТОРИЗАЦИЯ</string>
+    <string name="Login_Authorization">Логин</string>
+    <string name="Password_Authorization">Пароль</string>
+    <string name="Button_Authorization">ВОЙТИ</string>
+    <string name="text_error">Неверные данные</string>
+    <string name="text_hello">Добро пожаловать</string>
+    <string name="error401">Ошибка 401</string>
+    <string name="authorization">Авторизация не выполнена</string>
+    <string name="reasons">Возможные причины:</string>
+    <string name="reasons1">• Неправильно указанны \n    авторизованные данные</string>
+    <string name="reasons2">• Доступ временно закрыт \n    владельцами приложения</string>
+    <string name="again">Попробовать снова</string>
+
+</resources>
